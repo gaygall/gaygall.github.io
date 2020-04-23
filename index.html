@@ -3,18 +3,38 @@
 <head>
 	<title>GALLERY</title>
 	<style type="text/css">
-		body{text-align: center;}
+		body{text-align: center;
+			background: radial-gradient(#00ffff,#009b76)
+		}
+		h2{font-family: verdana;
+			font-size:30px;
+			color:#c0c0c0;
+			text-shadow: 1px 0 1px #000,0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;}
+		h2:hover{color:#a5a5a5;}
 		button{font-size: 100px;padding:70px;background-color: #d4d3d2}
-		img{border:10px solid #d4ae8c;}
-		button:hover{color: blue;background-color: #edeceb}
+		img{box-shadow: 0px 0px 9px 9px #d2d2d2;
+			}
+		button:hover{color: blue;background-color: #edeceb;box-shadow: 0px 0px 9px 4px #d2d2d2;}
+		#vk_comments{
+			margin:0 auto;
+		}
+		a{font-family: verdana;font-size: 20px}
+		a:hover{text-shadow: 1px 0 1px #000,0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;}
 	</style>
 	<link rel="icon" href="fav.ico" type="image/x-icon" />
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+	<script type="text/javascript">VK.init({apiId: 7426164, onlyWidgets: true});</script>
 </head>
 <body>
 	<h2>GALLERY</h2>
 	<img height="600px" id="gall"><br>
 	<button onclick="left()"><</button>
-	<button onclick="right()">></button>
+	<button onclick="right()">></button><br><br>
 	<script type="text/javascript" src = "code.js"></script>
+	<div id="vk_comments"></div><br>
+	<script type="text/javascript">
+		VK.Widgets.Comments("vk_comments", {limit: 10, width: "720", attach: "*"});
+	</script>
+	<a href="https://vk.com/webjcou">АВТОР</a>
 </body>
 </html>
