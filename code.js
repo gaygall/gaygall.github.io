@@ -7,7 +7,9 @@ var gallery = document.getElementById("gall");
 					  ,"art/6.jpg"
 					  ,"art/7.jpg"
 					  ,"art/8.jpg"
-					  ,"art/9.jpg"]
+					  ,"art/9.jpg"
+					  ,"art/10.png"
+				]
 		var sel= 0;
 
 		window.onload = main();
