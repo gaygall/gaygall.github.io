@@ -9,6 +9,8 @@ var gallery = document.getElementById("gall");
 					  ,"art/8.jpg"
 					  ,"art/9.jpg"
 					  ,"art/10.png"
+					  ,"art/11.jpg"
+					  ,"art/12.jpg"
 				]
 		var sel= 0;
 
