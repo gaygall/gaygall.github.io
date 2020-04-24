@@ -8,7 +8,7 @@ var photos  = ["art/1.jpg"
 			  ,"art/7.jpg"
 			  ,"art/8.jpg"
 			  ,"art/9.jpg"
-			  ,"art/10.png"
+			  ,"art/10.jpg"
 			  ,"art/11.jpg"
 			  ,"art/12.jpg"
 		]
