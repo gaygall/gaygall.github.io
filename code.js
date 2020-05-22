@@ -11,6 +11,7 @@ var photos  = ["art/1.jpg"
 			  ,"art/10.jpg"
 			  ,"art/11.jpg"
 			  ,"art/12.jpg"
+			  ,"art/13.jpg"
 		]
 var sel= 0;
 var image = new Image();
